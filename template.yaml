@@ -31,9 +31,6 @@ Parameters:
   DbHost:
     Type: String
     Description: The database host
-  DbPort:
-    Type: String
-    Description: The database port
   DbUser:
     Type: String
     Description: The database user
