@@ -40,4 +40,4 @@ jobs:
         DB_PASS: ${{ secrets.DB_PASS }}
         DB_NAME: ${{ secrets.DB_NAME }}
       run: |
-        sam deploy --no-confirm-changeset --capabilities CAPABILITY_IAM --stack-name lambda-user-api --parameter-overrides DbHost=$DB_HOST DbPort=$DB_PORT DbUser=$DB_USER DbPassword=$DB_PASS DbName=$DB_NAME
+        sam deploy --no-confirm-changeset --capabilities CAPABILITY_IAM --stack-name lambda-user-api --parameter-overrides DbHost=$DB_HOST DbUser=$DB_USER DbPassword=$DB_PASS DbName=$DB_NAME
