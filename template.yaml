@@ -30,7 +30,7 @@ Resources:
 Parameters:
   DbHost:
     Type: String
-    Description: The database host
+    Description: The database host name
   DbUser:
     Type: String
     Description: The database user
